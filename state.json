@@ -10,19 +10,25 @@
    "count": 0,
    "id": 779782965,
    "uploaded": "2026-11-22T17:02:58Z",
-   "version": "1.0.0"
+   "version": null
   },
   "OmniNet-macOS-x86_64.dmg": {
    "count": 0,
    "id": 779788285,
    "uploaded": "2026-11-22T17:04:21Z",
-   "version": "1.0.0"
+   "version": null
+  },
+  "OmniNet-windows-x64-portable.zip": {
+   "count": 0,
+   "id": 779801874,
+   "uploaded": "2026-11-22T17:08:29Z",
+   "version": null
   },
   "omninet.ubuntu.amd64.deb": {
    "count": 0,
    "id": 779794323,
    "uploaded": "2026-11-22T17:06:10Z",
-   "version": "1.0.0"
+   "version": null
   },
   "update-linux-x86_64-deb.json": {
    "count": 0,
@@ -41,6 +47,12 @@
    "id": 779788615,
    "uploaded": "2026-11-22T17:04:24Z",
    "version": "1.0.0"
+  },
+  "update-windows-x64.json": {
+   "count": 0,
+   "id": 779802324,
+   "uploaded": "2026-11-22T17:08:31Z",
+   "version": null
   }
  },
  "history": [
@@ -52,5 +64,5 @@
  ],
  "retired": {},
  "since": "2026-11-22",
- "updated": "2026-11-22T17:08:28+00:00"
+ "updated": "2026-11-22T17:09:53+00:00"
 }
