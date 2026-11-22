@@ -1,17 +1,20 @@
 {
- "updated": "2026-11-22T17:04:46+00:00",
+ "updated": "2026-11-22T17:06:30+00:00",
  "since": "2026-11-22",
  "downloads": 0,
  "by_platform": {
+  "Linux": 0,
   "macOS": 0
  },
  "by_version": {},
  "by_file": {
   "OmniNet-macOS-arm64.dmg": 0,
-  "OmniNet-macOS-x86_64.dmg": 0
+  "OmniNet-macOS-x86_64.dmg": 0,
+  "omninet.ubuntu.amd64.deb": 0
  },
  "update_checks": 0,
  "update_checks_by_file": {
+  "update-linux-x86_64-deb.json": 0,
   "update-macos-arm64.json": 0,
   "update-macos-x86_64.json": 0
  },

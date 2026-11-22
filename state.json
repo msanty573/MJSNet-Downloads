@@ -12,6 +12,18 @@
    "uploaded": "2026-11-22T17:04:21Z",
    "version": "1.0.0"
   },
+  "omninet.ubuntu.amd64.deb": {
+   "count": 0,
+   "id": 779794323,
+   "uploaded": "2026-11-22T17:06:10Z",
+   "version": "1.0.0"
+  },
+  "update-linux-x86_64-deb.json": {
+   "count": 0,
+   "id": 779794757,
+   "uploaded": "2026-11-22T17:06:12Z",
+   "version": "1.0.0"
+  },
   "update-macos-arm64.json": {
    "count": 0,
    "id": 779783227,
@@ -34,5 +46,5 @@
  ],
  "retired": {},
  "since": "2026-11-22",
- "updated": "2026-11-22T17:04:46+00:00"
+ "updated": "2026-11-22T17:06:30+00:00"
 }
