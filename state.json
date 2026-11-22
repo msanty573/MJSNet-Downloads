@@ -1,5 +1,11 @@
 {
  "assets": {
+  "OmniNet-Setup-x64.exe": {
+   "count": 0,
+   "id": 779801881,
+   "uploaded": "2026-11-22T17:08:28Z",
+   "version": null
+  },
   "OmniNet-macOS-arm64.dmg": {
    "count": 0,
    "id": 779782965,
@@ -46,5 +52,5 @@
  ],
  "retired": {},
  "since": "2026-11-22",
- "updated": "2026-11-22T17:06:30+00:00"
+ "updated": "2026-11-22T17:08:28+00:00"
 }
