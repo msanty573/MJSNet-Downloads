@@ -1,43 +1,47 @@
 {
- "updated": "2026-11-22T19:35:37+00:00",
+ "updated": "2026-11-22T21:53:57+00:00",
  "since": "2026-11-22",
- "downloads": 13,
+ "downloads": 25,
  "by_platform": {
-  "Linux": 7,
-  "Windows": 2,
-  "macOS": 4
+  "Linux": 13,
+  "Windows": 6,
+  "macOS": 6
  },
  "by_version": {
-  "1.0.0": 13
+  "1.0.0": 2,
+  "unknown": 23
  },
  "by_file": {
-  "OmniNet-linux-aarch64.tar.gz": 1,
-  "OmniNet-linux-x86_64.tar.gz": 1,
-  "OmniNet-macOS-arm64.dmg": 2,
-  "OmniNet-macOS-x86_64.dmg": 2,
-  "OmniNet-Setup-x64.exe": 1,
-  "OmniNet-windows-x64-portable.zip": 1,
-  "omninet.el10.aarch64.rpm": 1,
-  "omninet.el10.x86_64.rpm": 1,
-  "omninet.ubuntu.amd64.deb": 2,
-  "omninet.ubuntu.arm64.deb": 1
+  "OmniNet-linux-aarch64.tar.gz": 2,
+  "OmniNet-linux-x86_64.tar.gz": 2,
+  "OmniNet-macOS-arm64.dmg": 3,
+  "OmniNet-macOS-x86_64.dmg": 3,
+  "OmniNet-Setup-arm64.exe": 1,
+  "OmniNet-Setup-x64.exe": 2,
+  "OmniNet-windows-arm64-portable.zip": 1,
+  "OmniNet-windows-x64-portable.zip": 2,
+  "omninet.el10.aarch64.rpm": 2,
+  "omninet.el10.x86_64.rpm": 2,
+  "omninet.ubuntu.amd64.deb": 3,
+  "omninet.ubuntu.arm64.deb": 2
  },
- "update_checks": 7,
+ "update_checks": 17,
  "update_checks_by_file": {
-  "update-linux-aarch64-deb.json": 0,
-  "update-linux-aarch64.json": 1,
-  "update-linux-x86_64-deb.json": 1,
-  "update-linux-x86_64.json": 1,
-  "update-macos-arm64.json": 2,
-  "update-macos-x86_64.json": 1,
-  "update-windows-x64.json": 1
+  "update-linux-aarch64-deb.json": 1,
+  "update-linux-aarch64.json": 2,
+  "update-linux-x86_64-deb.json": 2,
+  "update-linux-x86_64.json": 2,
+  "update-macos-arm64.json": 3,
+  "update-macos-x86_64.json": 2,
+  "update-windows-arm64.json": 2,
+  "update-windows-x64.json": 3
  },
  "note": "downloads = installers and packages downloaded from the downloads page (not installs from the dnf/apt repositories); update_checks = times an installed copy checked for updates",
  "history": [
   {
    "date": "2026-11-22",
-   "downloads": 13,
-   "update_checks": 7
+   "downloads": 25,
+   "update_checks": 17
   }
  ]
 }
