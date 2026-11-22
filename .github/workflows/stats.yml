@@ -1,0 +1,50 @@
+# Download stats — lives in msanty573/OmniNet-Downloads as .github/workflows/stats.yml
+# (source: the private OmniNet repo's packaging/downloads-stats.yml; the script is
+# packaging/download_stats.py, copied to tools/download_stats.py). Snapshots the
+# download counts of the `latest` release into the `stats` branch every hour and when
+# publish.py starts, so counts survive files being replaced by a new version.
+name: Download stats
+
+on:
+  schedule:
+    - cron: "23 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: download-stats
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: main
+          sparse-checkout: tools
+      - name: Check out the stats branch
+        run: |
+          if git ls-remote --exit-code "https://github.com/${GITHUB_REPOSITORY}" refs/heads/stats >/dev/null; then
+            git clone --depth 1 --branch stats "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}" stats
+          else
+            mkdir stats && git -C stats init -q -b stats
+            git -C stats remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Take a snapshot
+        run: python3 main/tools/download_stats.py stats
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          STATS_REPO: ${{ github.repository }}
+      - name: Save it
+        run: |
+          cd stats
+          git add -A
+          git diff --cached --quiet && { echo "No change."; exit 0; }
+          git -c user.name="OmniNet stats" -c user.email="stats@omninet.invalid" commit -q -m "Download stats $(date -u +%FT%TZ)"
+          git push -q origin HEAD:stats
