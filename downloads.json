@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:09:53+00:00",
+ "updated": "2026-11-22T17:10:02+00:00",
  "since": "2026-11-22",
  "downloads": 0,
  "by_platform": {
@@ -9,15 +9,18 @@
  },
  "by_version": {},
  "by_file": {
+  "OmniNet-linux-x86_64.tar.gz": 0,
   "OmniNet-macOS-arm64.dmg": 0,
   "OmniNet-macOS-x86_64.dmg": 0,
   "OmniNet-Setup-x64.exe": 0,
   "OmniNet-windows-x64-portable.zip": 0,
+  "omninet.el10.x86_64.rpm": 0,
   "omninet.ubuntu.amd64.deb": 0
  },
  "update_checks": 0,
  "update_checks_by_file": {
   "update-linux-x86_64-deb.json": 0,
+  "update-linux-x86_64.json": 0,
   "update-macos-arm64.json": 0,
   "update-macos-x86_64.json": 0,
   "update-windows-x64.json": 0
