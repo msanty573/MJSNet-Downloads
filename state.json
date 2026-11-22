@@ -6,6 +6,12 @@
    "uploaded": "2026-11-22T17:08:28Z",
    "version": "1.0.0"
   },
+  "OmniNet-linux-aarch64.tar.gz": {
+   "count": 0,
+   "id": 779809366,
+   "uploaded": "2026-11-22T17:11:00Z",
+   "version": "1.0.0"
+  },
   "OmniNet-linux-x86_64.tar.gz": {
    "count": 0,
    "id": 779806537,
@@ -13,13 +19,13 @@
    "version": "1.0.0"
   },
   "OmniNet-macOS-arm64.dmg": {
-   "count": 0,
+   "count": 1,
    "id": 779782965,
    "uploaded": "2026-11-22T17:02:58Z",
    "version": "1.0.0"
   },
   "OmniNet-macOS-x86_64.dmg": {
-   "count": 0,
+   "count": 1,
    "id": 779788285,
    "uploaded": "2026-11-22T17:04:21Z",
    "version": "1.0.0"
@@ -30,6 +36,12 @@
    "uploaded": "2026-11-22T17:08:29Z",
    "version": "1.0.0"
   },
+  "omninet.el10.aarch64.rpm": {
+   "count": 0,
+   "id": 779809362,
+   "uploaded": "2026-11-22T17:11:00Z",
+   "version": "1.0.0"
+  },
   "omninet.el10.x86_64.rpm": {
    "count": 0,
    "id": 779806536,
@@ -37,13 +49,31 @@
    "version": "1.0.0"
   },
   "omninet.ubuntu.amd64.deb": {
-   "count": 0,
+   "count": 1,
    "id": 779794323,
    "uploaded": "2026-11-22T17:06:10Z",
    "version": "1.0.0"
   },
-  "update-linux-x86_64-deb.json": {
+  "omninet.ubuntu.arm64.deb": {
    "count": 0,
+   "id": 779808762,
+   "uploaded": "2026-11-22T17:10:41Z",
+   "version": "1.0.0"
+  },
+  "update-linux-aarch64-deb.json": {
+   "count": 0,
+   "id": 779809041,
+   "uploaded": "2026-11-22T17:10:43Z",
+   "version": "1.0.0"
+  },
+  "update-linux-aarch64.json": {
+   "count": 0,
+   "id": 779809947,
+   "uploaded": "2026-11-22T17:11:03Z",
+   "version": "1.0.0"
+  },
+  "update-linux-x86_64-deb.json": {
+   "count": 1,
    "id": 779794757,
    "uploaded": "2026-11-22T17:06:12Z",
    "version": "1.0.0"
@@ -55,13 +85,13 @@
    "version": "1.0.0"
   },
   "update-macos-arm64.json": {
-   "count": 0,
+   "count": 1,
    "id": 779783227,
    "uploaded": "2026-11-22T17:03:01Z",
    "version": "1.0.0"
   },
   "update-macos-x86_64.json": {
-   "count": 0,
+   "count": 1,
    "id": 779788615,
    "uploaded": "2026-11-22T17:04:24Z",
    "version": "1.0.0"
@@ -76,11 +106,11 @@
  "history": [
   {
    "date": "2026-11-22",
-   "downloads": 0,
-   "update_checks": 0
+   "downloads": 3,
+   "update_checks": 3
   }
  ],
  "retired": {},
  "since": "2026-11-22",
- "updated": "2026-11-22T17:10:02+00:00"
+ "updated": "2026-11-22T17:24:38+00:00"
 }

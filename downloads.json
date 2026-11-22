@@ -1,36 +1,43 @@
 {
- "updated": "2026-11-22T17:10:02+00:00",
+ "updated": "2026-11-22T17:24:38+00:00",
  "since": "2026-11-22",
- "downloads": 0,
+ "downloads": 3,
  "by_platform": {
-  "Linux": 0,
+  "Linux": 1,
   "Windows": 0,
-  "macOS": 0
+  "macOS": 2
  },
- "by_version": {},
+ "by_version": {
+  "1.0.0": 3
+ },
  "by_file": {
+  "OmniNet-linux-aarch64.tar.gz": 0,
   "OmniNet-linux-x86_64.tar.gz": 0,
-  "OmniNet-macOS-arm64.dmg": 0,
-  "OmniNet-macOS-x86_64.dmg": 0,
+  "OmniNet-macOS-arm64.dmg": 1,
+  "OmniNet-macOS-x86_64.dmg": 1,
   "OmniNet-Setup-x64.exe": 0,
   "OmniNet-windows-x64-portable.zip": 0,
+  "omninet.el10.aarch64.rpm": 0,
   "omninet.el10.x86_64.rpm": 0,
-  "omninet.ubuntu.amd64.deb": 0
+  "omninet.ubuntu.amd64.deb": 1,
+  "omninet.ubuntu.arm64.deb": 0
  },
- "update_checks": 0,
+ "update_checks": 3,
  "update_checks_by_file": {
-  "update-linux-x86_64-deb.json": 0,
+  "update-linux-aarch64-deb.json": 0,
+  "update-linux-aarch64.json": 0,
+  "update-linux-x86_64-deb.json": 1,
   "update-linux-x86_64.json": 0,
-  "update-macos-arm64.json": 0,
-  "update-macos-x86_64.json": 0,
+  "update-macos-arm64.json": 1,
+  "update-macos-x86_64.json": 1,
   "update-windows-x64.json": 0
  },
  "note": "downloads = installers and packages downloaded from the downloads page (not installs from the dnf/apt repositories); update_checks = times an installed copy checked for updates",
  "history": [
   {
    "date": "2026-11-22",
-   "downloads": 0,
-   "update_checks": 0
+   "downloads": 3,
+   "update_checks": 3
   }
  ]
 }
