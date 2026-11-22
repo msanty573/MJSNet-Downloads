@@ -30,6 +30,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.request
 from pathlib import Path
 
@@ -160,7 +161,14 @@ def main(folder: str) -> None:
     state_file = out / "state.json"
     state = json.loads(state_file.read_text()) if state_file.exists() else {}
     now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
-    state = update_state(state, fetch_release(), now)
+    try:
+        release = fetch_release()
+    except urllib.error.HTTPError as e:
+        if e.code == 404:              # no downloads release yet (a brand-new repo): nothing to count
+            print("No downloads release yet; nothing to count.")
+            return
+        raise
+    state = update_state(state, release, now)
     summary = summarize(state, now)
     old_file = out / "downloads.json"
     old = json.loads(old_file.read_text()) if old_file.exists() else {}
