@@ -6,10 +6,22 @@
    "uploaded": "2026-11-22T17:02:58Z",
    "version": "1.0.0"
   },
+  "OmniNet-macOS-x86_64.dmg": {
+   "count": 0,
+   "id": 779788285,
+   "uploaded": "2026-11-22T17:04:21Z",
+   "version": "1.0.0"
+  },
   "update-macos-arm64.json": {
    "count": 0,
    "id": 779783227,
    "uploaded": "2026-11-22T17:03:01Z",
+   "version": "1.0.0"
+  },
+  "update-macos-x86_64.json": {
+   "count": 0,
+   "id": 779788615,
+   "uploaded": "2026-11-22T17:04:24Z",
    "version": "1.0.0"
   }
  },
@@ -22,5 +34,5 @@
  ],
  "retired": {},
  "since": "2026-11-22",
- "updated": "2026-11-22T17:03:19+00:00"
+ "updated": "2026-11-22T17:04:46+00:00"
 }
