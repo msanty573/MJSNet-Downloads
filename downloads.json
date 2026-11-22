@@ -1,0 +1,24 @@
+{
+ "updated": "2026-11-22T17:03:19+00:00",
+ "since": "2026-11-22",
+ "downloads": 0,
+ "by_platform": {
+  "macOS": 0
+ },
+ "by_version": {},
+ "by_file": {
+  "OmniNet-macOS-arm64.dmg": 0
+ },
+ "update_checks": 0,
+ "update_checks_by_file": {
+  "update-macos-arm64.json": 0
+ },
+ "note": "downloads = installers and packages downloaded from the downloads page (not installs from the dnf/apt repositories); update_checks = times an installed copy checked for updates",
+ "history": [
+  {
+   "date": "2026-11-22",
+   "downloads": 0,
+   "update_checks": 0
+  }
+ ]
+}

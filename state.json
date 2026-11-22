@@ -1,0 +1,26 @@
+{
+ "assets": {
+  "OmniNet-macOS-arm64.dmg": {
+   "count": 0,
+   "id": 779782965,
+   "uploaded": "2026-11-22T17:02:58Z",
+   "version": "1.0.0"
+  },
+  "update-macos-arm64.json": {
+   "count": 0,
+   "id": 779783227,
+   "uploaded": "2026-11-22T17:03:01Z",
+   "version": "1.0.0"
+  }
+ },
+ "history": [
+  {
+   "date": "2026-11-22",
+   "downloads": 0,
+   "update_checks": 0
+  }
+ ],
+ "retired": {},
+ "since": "2026-11-22",
+ "updated": "2026-11-22T17:03:19+00:00"
+}
