@@ -97,7 +97,7 @@
    "version": "1.0.0"
   },
   "update-macos-arm64.json": {
-   "count": 3,
+   "count": 4,
    "id": 779783227,
    "uploaded": "2026-11-22T17:03:01Z",
    "version": "1.0.0"
@@ -135,7 +135,7 @@
   {
    "date": "2026-11-24",
    "downloads": 25,
-   "update_checks": 17
+   "update_checks": 18
   }
  ],
  "retired": {
@@ -150,5 +150,5 @@
   }
  },
  "since": "2026-11-22",
- "updated": "2026-11-24T02:23:17+00:00"
+ "updated": "2026-11-24T13:58:39+00:00"
 }
