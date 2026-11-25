@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T01:01:28+00:00",
+ "updated": "2026-11-25T01:02:57+00:00",
  "since": "2026-11-22",
  "downloads": 25,
  "by_platform": {
@@ -8,8 +8,8 @@
   "macOS": 6
  },
  "by_version": {
-  "1.0.0": 2,
-  "unknown": 23
+  "1.0.0": 22,
+  "unknown": 3
  },
  "by_file": {
   "OmniNet-linux-aarch64.tar.gz": 2,
