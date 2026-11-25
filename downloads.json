@@ -1,32 +1,32 @@
 {
- "updated": "2026-11-25T22:42:33+00:00",
+ "updated": "2026-11-25T23:03:05+00:00",
  "since": "2026-11-22",
- "downloads": 64,
+ "downloads": 77,
  "by_platform": {
-  "Linux": 30,
-  "Windows": 20,
-  "macOS": 14
+  "Linux": 36,
+  "Windows": 24,
+  "macOS": 17
  },
  "by_version": {
-  "1.2.0": 22,
+  "1.2.0": 35,
   "1.1.1": 12,
   "1.1.0": 3,
   "1.0.0": 22,
   "unknown": 5
  },
  "by_file": {
-  "MJSNet-linux-aarch64.tar.gz": 2,
-  "MJSNet-linux-x86_64.tar.gz": 2,
-  "MJSNet-macOS-arm64.dmg": 2,
-  "MJSNet-macOS-x86_64.dmg": 2,
-  "MJSNet-Setup-arm64.exe": 2,
-  "MJSNet-Setup-x64.exe": 2,
-  "MJSNet-windows-arm64-portable.zip": 2,
-  "MJSNet-windows-x64-portable.zip": 2,
-  "mjsnet.el10.aarch64.rpm": 2,
-  "mjsnet.el10.x86_64.rpm": 2,
-  "mjsnet.ubuntu.amd64.deb": 1,
-  "mjsnet.ubuntu.arm64.deb": 1,
+  "MJSNet-linux-aarch64.tar.gz": 3,
+  "MJSNet-linux-x86_64.tar.gz": 3,
+  "MJSNet-macOS-arm64.dmg": 4,
+  "MJSNet-macOS-x86_64.dmg": 3,
+  "MJSNet-Setup-arm64.exe": 3,
+  "MJSNet-Setup-x64.exe": 3,
+  "MJSNet-windows-arm64-portable.zip": 3,
+  "MJSNet-windows-x64-portable.zip": 3,
+  "mjsnet.el10.aarch64.rpm": 3,
+  "mjsnet.el10.x86_64.rpm": 3,
+  "mjsnet.ubuntu.amd64.deb": 2,
+  "mjsnet.ubuntu.arm64.deb": 2,
   "OmniNet-linux-aarch64.tar.gz": 3,
   "OmniNet-linux-x86_64.tar.gz": 3,
   "OmniNet-macOS-arm64.dmg": 6,
@@ -40,7 +40,7 @@
   "omninet.ubuntu.amd64.deb": 5,
   "omninet.ubuntu.arm64.deb": 3
  },
- "update_checks": 48,
+ "update_checks": 49,
  "update_checks_by_file": {
   "update-linux-aarch64-deb.json": 4,
   "update-linux-aarch64.json": 7,
@@ -49,7 +49,7 @@
   "update-macos-arm64.json": 9,
   "update-macos-x86_64.json": 5,
   "update-windows-arm64.json": 5,
-  "update-windows-x64.json": 7
+  "update-windows-x64.json": 8
  },
  "note": "downloads = installers and packages downloaded from the downloads page (not installs from the dnf/apt repositories); update_checks = times an installed copy checked for updates",
  "history": [
@@ -70,8 +70,8 @@
   },
   {
    "date": "2026-11-25",
-   "downloads": 64,
-   "update_checks": 48
+   "downloads": 77,
+   "update_checks": 49
   }
  ]
 }
