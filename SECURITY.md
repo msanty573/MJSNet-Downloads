@@ -1,12 +1,12 @@
 # Security policy
 
-Thank you for helping keep OmniNet and its users safe.
+Thank you for helping keep MJSNet and its users safe.
 
 ## Supported versions
 
-Only the **latest release** of OmniNet receives security fixes. **Help → Check for
+Only the **latest release** of MJSNet receives security fixes. **Help → Check for
 Updates…** in the app installs it, as do `dnf` and `apt` for the Linux packages. The
-newest downloads are always at <https://mjsapps.net/omninet/>.
+newest downloads are always at <https://mjsapps.net/mjsnet/>.
 
 | Version | Supported |
 |---|---|
@@ -24,7 +24,7 @@ them privately in either of these ways:
 
 Please include:
 
-- the OmniNet version and build — shown in **Help → About OmniNet** (for example
+- the MJSNet version and build — shown in **Help → About MJSNet** (for example
   *1.0.0, macOS · Apple silicon (arm64)*), or which download or page it affects;
 - your operating system and version;
 - what the problem is and the steps to reproduce it, and what an attacker could do with it.
@@ -40,19 +40,19 @@ Please include:
 
 ## Scope
 
-- The OmniNet apps for macOS, Windows and Linux, and their installers and packages.
-- The update information OmniNet downloads (`update-*.json`) and the signed `dnf` and
+- The MJSNet apps for macOS, Windows and Linux, and their installers and packages.
+- The update information MJSNet downloads (`update-*.json`) and the signed `dnf` and
   `apt` repositories at <https://msanty573.github.io/OmniNet-Downloads/>.
 
-## How OmniNet handles your data
+## How MJSNet handles your data
 
-OmniNet works on your computer. Scan results, device names and notes, and history are
-stored locally (on a Mac in `~/Library/Application Support/OmniNet`) and are never sent
+MJSNet works on your computer. Scan results, device names and notes, and history are
+stored locally (on a Mac in `~/Library/Application Support/MJSNet`) and are never sent
 anywhere. Your router's admin password, if you give it, is kept in the system keychain.
 
-OmniNet talks to the internet only for these, all over HTTPS:
+MJSNet talks to the internet only for these, all over HTTPS:
 
-- **Check for Updates** — OmniNet's update information and, when you choose to update,
+- **Check for Updates** — MJSNet's update information and, when you choose to update,
   the new version from GitHub, checked against a SHA-256 checksum before use. The daily
   automatic check can be turned off in the **Help** menu.
 - **Known-vulnerability lookups** — the names and version numbers of software found on
@@ -62,5 +62,5 @@ OmniNet talks to the internet only for these, all over HTTPS:
 - **What the internet sees** (Tools) — only when you press its button, your home's
   public IP address is looked up in Shodan's InternetDB.
 
-Scanning itself stays on your network: OmniNet only connects to devices the way any app
+Scanning itself stays on your network: MJSNet only connects to devices the way any app
 does and never tries to log in or break in.

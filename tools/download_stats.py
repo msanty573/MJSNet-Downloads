@@ -1,4 +1,4 @@
-"""Keep a running count of OmniNet downloads.
+"""Keep a running count of MJSNet downloads.
 
 GitHub counts downloads per release file, but publish.py replaces each file in the
 public downloads repo's ``latest`` release on every version, which starts that
@@ -18,7 +18,7 @@ checkout of the repo's ``stats`` branch and writes there:
 
     python download_stats.py <stats-folder>       (GITHUB_TOKEN optional; raises the rate limit)
 
-Standard library only. The source lives in the private OmniNet repo
+Standard library only. The source lives in the private MJSNet repo
 (packaging/download_stats.py, packaging/downloads-stats.yml) and is copied to the
 downloads repo by hand, like its README and SECURITY.md.
 """
@@ -61,7 +61,7 @@ def versions_in(body: str) -> dict[str, str]:
 def fetch_release(repo: str = REPO, tag: str = TAG) -> dict:
     req = urllib.request.Request(f"https://api.github.com/repos/{repo}/releases/tags/{tag}",
                                  headers={"Accept": "application/vnd.github+json",
-                                          "User-Agent": "omninet-download-stats"})
+                                          "User-Agent": "mjsnet-download-stats"})
     if os.environ.get("GITHUB_TOKEN"):
         req.add_header("Authorization", f"Bearer {os.environ['GITHUB_TOKEN']}")
     with urllib.request.urlopen(req, timeout=60) as r:
