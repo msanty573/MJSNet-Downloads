@@ -1,124 +1,124 @@
 {
  "assets": {
   "OmniNet-Setup-arm64.exe": {
-   "count": 1,
-   "id": 780230521,
-   "uploaded": "2026-11-22T19:40:46Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789525971,
+   "uploaded": "2026-11-25T01:06:14Z",
+   "version": null
   },
   "OmniNet-Setup-x64.exe": {
-   "count": 1,
-   "id": 780232238,
-   "uploaded": "2026-11-22T19:41:25Z",
-   "version": "1.0.0"
+   "count": 2,
+   "id": 789528093,
+   "uploaded": "2026-11-25T01:07:05Z",
+   "version": null
   },
   "OmniNet-linux-aarch64.tar.gz": {
-   "count": 2,
-   "id": 779809366,
-   "uploaded": "2026-11-22T17:11:00Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789521065,
+   "uploaded": "2026-11-25T01:04:06Z",
+   "version": null
   },
   "OmniNet-linux-x86_64.tar.gz": {
-   "count": 2,
-   "id": 779806537,
-   "uploaded": "2026-11-22T17:09:59Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789523449,
+   "uploaded": "2026-11-25T01:05:10Z",
+   "version": null
   },
   "OmniNet-macOS-arm64.dmg": {
-   "count": 0,
+   "count": 2,
    "id": 789517476,
    "uploaded": "2026-11-25T01:02:37Z",
-   "version": "1.1.0"
+   "version": null
   },
   "OmniNet-macOS-x86_64.dmg": {
-   "count": 3,
-   "id": 779788285,
-   "uploaded": "2026-11-22T17:04:21Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789521825,
+   "uploaded": "2026-11-25T01:04:21Z",
+   "version": null
   },
   "OmniNet-windows-arm64-portable.zip": {
-   "count": 1,
-   "id": 780230520,
-   "uploaded": "2026-11-22T19:40:47Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789525973,
+   "uploaded": "2026-11-25T01:06:15Z",
+   "version": null
   },
   "OmniNet-windows-x64-portable.zip": {
-   "count": 1,
-   "id": 780232239,
-   "uploaded": "2026-11-22T19:41:26Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789528092,
+   "uploaded": "2026-11-25T01:07:04Z",
+   "version": null
   },
   "omninet.el10.aarch64.rpm": {
-   "count": 2,
-   "id": 779809362,
-   "uploaded": "2026-11-22T17:11:00Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789521047,
+   "uploaded": "2026-11-25T01:04:06Z",
+   "version": null
   },
   "omninet.el10.x86_64.rpm": {
-   "count": 2,
-   "id": 779806536,
-   "uploaded": "2026-11-22T17:09:58Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789523448,
+   "uploaded": "2026-11-25T01:05:07Z",
+   "version": null
   },
   "omninet.ubuntu.amd64.deb": {
-   "count": 3,
-   "id": 779794323,
-   "uploaded": "2026-11-22T17:06:10Z",
-   "version": "1.0.0"
+   "count": 1,
+   "id": 789522030,
+   "uploaded": "2026-11-25T01:04:25Z",
+   "version": null
   },
   "omninet.ubuntu.arm64.deb": {
-   "count": 2,
-   "id": 779808762,
-   "uploaded": "2026-11-22T17:10:41Z",
-   "version": "1.0.0"
+   "count": 0,
+   "id": 789520702,
+   "uploaded": "2026-11-25T01:03:54Z",
+   "version": null
   },
   "update-linux-aarch64-deb.json": {
    "count": 1,
-   "id": 779809041,
-   "uploaded": "2026-11-22T17:10:43Z",
-   "version": "1.0.0"
+   "id": 789521020,
+   "uploaded": "2026-11-25T01:03:57Z",
+   "version": null
   },
   "update-linux-aarch64.json": {
-   "count": 2,
-   "id": 779809947,
-   "uploaded": "2026-11-22T17:11:03Z",
-   "version": "1.0.0"
+   "count": 3,
+   "id": 789521586,
+   "uploaded": "2026-11-25T01:04:09Z",
+   "version": null
   },
   "update-linux-x86_64-deb.json": {
-   "count": 2,
-   "id": 779794757,
-   "uploaded": "2026-11-22T17:06:12Z",
-   "version": "1.0.0"
+   "count": 1,
+   "id": 789522258,
+   "uploaded": "2026-11-25T01:04:27Z",
+   "version": null
   },
   "update-linux-x86_64.json": {
    "count": 2,
-   "id": 779807069,
-   "uploaded": "2026-11-22T17:10:02Z",
-   "version": "1.0.0"
+   "id": 789524056,
+   "uploaded": "2026-11-25T01:05:13Z",
+   "version": null
   },
   "update-macos-arm64.json": {
-   "count": 0,
+   "count": 3,
    "id": 789517770,
    "uploaded": "2026-11-25T01:02:41Z",
    "version": "1.1.0"
   },
   "update-macos-x86_64.json": {
-   "count": 2,
-   "id": 779788615,
-   "uploaded": "2026-11-22T17:04:24Z",
-   "version": "1.0.0"
+   "count": 1,
+   "id": 789522142,
+   "uploaded": "2026-11-25T01:04:24Z",
+   "version": null
   },
   "update-windows-arm64.json": {
-   "count": 2,
-   "id": 780230833,
-   "uploaded": "2026-11-22T19:40:49Z",
-   "version": "1.1.0"
+   "count": 1,
+   "id": 789526365,
+   "uploaded": "2026-11-25T01:06:18Z",
+   "version": null
   },
   "update-windows-x64.json": {
    "count": 2,
-   "id": 780232880,
-   "uploaded": "2026-11-22T19:41:29Z",
-   "version": "1.1.0"
+   "id": 789528473,
+   "uploaded": "2026-11-25T01:07:07Z",
+   "version": null
   }
  },
  "history": [
@@ -139,27 +139,73 @@
   },
   {
    "date": "2026-11-25",
-   "downloads": 25,
-   "update_checks": 18
+   "downloads": 30,
+   "update_checks": 32
   }
  ],
  "retired": {
-  "OmniNet-Setup-x64.exe": {
+  "OmniNet-Setup-arm64.exe": {
    "1.0.0": 1
+  },
+  "OmniNet-Setup-x64.exe": {
+   "1.0.0": 2
+  },
+  "OmniNet-linux-aarch64.tar.gz": {
+   "1.0.0": 2
+  },
+  "OmniNet-linux-x86_64.tar.gz": {
+   "1.0.0": 2
   },
   "OmniNet-macOS-arm64.dmg": {
    "unknown": 3
   },
-  "OmniNet-windows-x64-portable.zip": {
+  "OmniNet-macOS-x86_64.dmg": {
+   "1.0.0": 3
+  },
+  "OmniNet-windows-arm64-portable.zip": {
    "1.0.0": 1
+  },
+  "OmniNet-windows-x64-portable.zip": {
+   "1.0.0": 2
+  },
+  "omninet.el10.aarch64.rpm": {
+   "1.0.0": 2
+  },
+  "omninet.el10.x86_64.rpm": {
+   "1.0.0": 2
+  },
+  "omninet.ubuntu.amd64.deb": {
+   "1.0.0": 3
+  },
+  "omninet.ubuntu.arm64.deb": {
+   "1.0.0": 2
+  },
+  "update-linux-aarch64-deb.json": {
+   "1.0.0": 1
+  },
+  "update-linux-aarch64.json": {
+   "1.0.0": 2
+  },
+  "update-linux-x86_64-deb.json": {
+   "1.0.0": 2
+  },
+  "update-linux-x86_64.json": {
+   "1.0.0": 2
   },
   "update-macos-arm64.json": {
    "1.0.0": 4
   },
+  "update-macos-x86_64.json": {
+   "1.0.0": 2
+  },
+  "update-windows-arm64.json": {
+   "1.1.0": 2
+  },
   "update-windows-x64.json": {
-   "1.0.0": 1
+   "1.0.0": 1,
+   "1.1.0": 2
   }
  },
  "since": "2026-11-22",
- "updated": "2026-11-25T01:02:57+00:00"
+ "updated": "2026-11-25T05:00:06+00:00"
 }
