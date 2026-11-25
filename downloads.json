@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:52:32+00:00",
+ "updated": "2026-11-25T22:13:12+00:00",
  "since": "2026-11-22",
  "downloads": 42,
  "by_platform": {
@@ -8,11 +8,13 @@
   "macOS": 10
  },
  "by_version": {
+  "1.1.1": 12,
   "1.1.0": 3,
   "1.0.0": 22,
-  "unknown": 17
+  "unknown": 5
  },
  "by_file": {
+  "MJSNet-macOS-arm64.dmg": 0,
   "OmniNet-linux-aarch64.tar.gz": 3,
   "OmniNet-linux-x86_64.tar.gz": 3,
   "OmniNet-macOS-arm64.dmg": 6,
