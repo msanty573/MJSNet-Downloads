@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:13:12+00:00",
+ "updated": "2026-11-25T22:14:52+00:00",
  "since": "2026-11-22",
  "downloads": 42,
  "by_platform": {
@@ -8,13 +8,18 @@
   "macOS": 10
  },
  "by_version": {
-  "1.1.1": 12,
   "1.1.0": 3,
   "1.0.0": 22,
-  "unknown": 5
+  "unknown": 17
  },
  "by_file": {
+  "MJSNet-linux-aarch64.tar.gz": 0,
   "MJSNet-macOS-arm64.dmg": 0,
+  "MJSNet-Setup-arm64.exe": 0,
+  "MJSNet-windows-arm64-portable.zip": 0,
+  "mjsnet.el10.aarch64.rpm": 0,
+  "mjsnet.ubuntu.amd64.deb": 0,
+  "mjsnet.ubuntu.arm64.deb": 0,
   "OmniNet-linux-aarch64.tar.gz": 3,
   "OmniNet-linux-x86_64.tar.gz": 3,
   "OmniNet-macOS-arm64.dmg": 6,
