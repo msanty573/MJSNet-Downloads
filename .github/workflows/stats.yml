@@ -1,5 +1,5 @@
-# Download stats — lives in msanty573/OmniNet-Downloads as .github/workflows/stats.yml
-# (source: the private OmniNet repo's packaging/downloads-stats.yml; the script is
+# Download stats — lives in msanty573/MJSNet-Downloads as .github/workflows/stats.yml
+# (source: the private MJSNet repo's packaging/downloads-stats.yml; the script is
 # packaging/download_stats.py, copied to tools/download_stats.py). Snapshots the
 # download counts of the `latest` release into the `stats` branch every hour and when
 # publish.py starts, so counts survive files being replaced by a new version.
@@ -46,5 +46,5 @@ jobs:
           cd stats
           git add -A
           git diff --cached --quiet && { echo "No change."; exit 0; }
-          git -c user.name="OmniNet stats" -c user.email="stats@omninet.invalid" commit -q -m "Download stats $(date -u +%FT%TZ)"
+          git -c user.name="MJSNet stats" -c user.email="stats@mjsnet.invalid" commit -q -m "Download stats $(date -u +%FT%TZ)"
           git push -q origin HEAD:stats

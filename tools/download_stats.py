@@ -6,7 +6,7 @@ file's count again at 0. This script takes a snapshot of the counts and remember
 the last count of every file that has been replaced, so the totals keep growing
 across versions.
 
-It runs in the downloads repo (msanty573/OmniNet-Downloads) as the "Download
+It runs in the downloads repo (msanty573/MJSNet-Downloads) as the "Download
 stats" GitHub Actions workflow: every hour, and whenever publish.py starts (so the
 last snapshot before a file is replaced is only minutes old). It works in a
 checkout of the repo's ``stats`` branch and writes there:
@@ -14,7 +14,7 @@ checkout of the repo's ``stats`` branch and writes there:
     state.json      what it needs next time (each file's id and count, retired counts,
                     and "excluded": our own test downloads, edited by hand)
     downloads.json  the public summary, for a download counter on the website:
-                    https://raw.githubusercontent.com/msanty573/OmniNet-Downloads/stats/downloads.json
+                    https://raw.githubusercontent.com/msanty573/MJSNet-Downloads/stats/downloads.json
 
     python download_stats.py <stats-folder>       (GITHUB_TOKEN optional; raises the rate limit)
 
@@ -34,7 +34,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-REPO = os.environ.get("STATS_REPO", "msanty573/OmniNet-Downloads")
+REPO = os.environ.get("STATS_REPO", "msanty573/MJSNet-Downloads")
 TAG = "latest"
 HISTORY_DAYS = 3660
 

@@ -42,7 +42,7 @@ Please include:
 
 - The MJSNet apps for macOS, Windows and Linux, and their installers and packages.
 - The update information MJSNet downloads (`update-*.json`) and the signed `dnf` and
-  `apt` repositories at <https://msanty573.github.io/OmniNet-Downloads/>.
+  `apt` repositories at <https://msanty573.github.io/MJSNet-Downloads/>.
 
 ## How MJSNet handles your data
 

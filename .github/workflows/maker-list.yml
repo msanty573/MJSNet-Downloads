@@ -1,8 +1,8 @@
-# Maker list — lives in msanty573/OmniNet-Downloads as .github/workflows/maker-list.yml
-# (source: the private OmniNet repo's packaging/maker-list.yml; the script is
+# Maker list — lives in msanty573/MJSNet-Downloads as .github/workflows/maker-list.yml
+# (source: the private MJSNet repo's packaging/maker-list.yml; the script is
 # packaging/make_oui.py, copied to tools/make_oui.py). Once a month rebuilds the MAC-address
 # maker list from the IEEE registers and publishes oui.tsv.gz + oui.json on the `maker-list`
-# branch, where OmniNet and OmniMonitor check for it every 30 days (scan/vendors.refresh).
+# branch, where MJSNet and MJSMonitor check for it every 30 days (scan/vendors.refresh).
 # The .gz is repeatable, so a month with no IEEE changes makes no commit and no downloads.
 name: Maker list
 
@@ -52,5 +52,5 @@ jobs:
           cp new/oui.tsv.gz new/oui.json list/
           cd list
           git add -A
-          git -c user.name="OmniNet maker list" -c user.email="maker-list@omninet.invalid" commit -q -m "Maker list $(date -u +%F)"
+          git -c user.name="MJSNet maker list" -c user.email="maker-list@mjsnet.invalid" commit -q -m "Maker list $(date -u +%F)"
           git push -q origin HEAD:maker-list
