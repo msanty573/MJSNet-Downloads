@@ -1,13 +1,14 @@
 {
- "updated": "2026-11-26T02:24:19+00:00",
+ "updated": "2026-11-26T12:54:05+00:00",
  "since": "2026-11-22",
- "downloads": 91,
+ "downloads": 103,
  "by_platform": {
-  "Linux": 43,
-  "Windows": 28,
-  "macOS": 20
+  "Linux": 49,
+  "Windows": 32,
+  "macOS": 22
  },
  "by_version": {
+  "1.2.3": 12,
   "1.2.2": 14,
   "1.2.0": 35,
   "1.1.1": 12,
@@ -16,18 +17,18 @@
   "unknown": 5
  },
  "by_file": {
-  "MJSNet-linux-aarch64.tar.gz": 4,
-  "MJSNet-linux-x86_64.tar.gz": 4,
-  "MJSNet-macOS-arm64.dmg": 6,
-  "MJSNet-macOS-x86_64.dmg": 4,
-  "MJSNet-Setup-arm64.exe": 4,
-  "MJSNet-Setup-x64.exe": 4,
-  "MJSNet-windows-arm64-portable.zip": 4,
-  "MJSNet-windows-x64-portable.zip": 4,
-  "mjsnet.el10.aarch64.rpm": 4,
-  "mjsnet.el10.x86_64.rpm": 4,
-  "mjsnet.ubuntu.amd64.deb": 3,
-  "mjsnet.ubuntu.arm64.deb": 4,
+  "MJSNet-linux-aarch64.tar.gz": 5,
+  "MJSNet-linux-x86_64.tar.gz": 5,
+  "MJSNet-macOS-arm64.dmg": 7,
+  "MJSNet-macOS-x86_64.dmg": 5,
+  "MJSNet-Setup-arm64.exe": 5,
+  "MJSNet-Setup-x64.exe": 5,
+  "MJSNet-windows-arm64-portable.zip": 5,
+  "MJSNet-windows-x64-portable.zip": 5,
+  "mjsnet.el10.aarch64.rpm": 5,
+  "mjsnet.el10.x86_64.rpm": 5,
+  "mjsnet.ubuntu.amd64.deb": 4,
+  "mjsnet.ubuntu.arm64.deb": 5,
   "OmniNet-linux-aarch64.tar.gz": 3,
   "OmniNet-linux-x86_64.tar.gz": 3,
   "OmniNet-macOS-arm64.dmg": 6,
@@ -41,16 +42,16 @@
   "omninet.ubuntu.amd64.deb": 5,
   "omninet.ubuntu.arm64.deb": 3
  },
- "update_checks": 49,
+ "update_checks": 57,
  "update_checks_by_file": {
-  "update-linux-aarch64-deb.json": 4,
-  "update-linux-aarch64.json": 7,
-  "update-linux-x86_64-deb.json": 5,
-  "update-linux-x86_64.json": 6,
-  "update-macos-arm64.json": 9,
-  "update-macos-x86_64.json": 5,
-  "update-windows-arm64.json": 5,
-  "update-windows-x64.json": 8
+  "update-linux-aarch64-deb.json": 5,
+  "update-linux-aarch64.json": 8,
+  "update-linux-x86_64-deb.json": 6,
+  "update-linux-x86_64.json": 7,
+  "update-macos-arm64.json": 10,
+  "update-macos-x86_64.json": 6,
+  "update-windows-arm64.json": 6,
+  "update-windows-x64.json": 9
  },
  "note": "downloads = installers and packages downloaded from the downloads page (not installs from the dnf/apt repositories); update_checks = times an installed copy checked for updates",
  "history": [
@@ -76,8 +77,8 @@
   },
   {
    "date": "2026-11-26",
-   "downloads": 91,
-   "update_checks": 49
+   "downloads": 103,
+   "update_checks": 57
   }
  ]
 }

@@ -2,51 +2,51 @@
  "assets": {
   "MJSNet-Setup-arm64.exe": {
    "count": 1,
-   "id": 793584371,
-   "uploaded": "2026-11-25T23:39:50Z",
-   "version": "1.2.2"
+   "id": 794003701,
+   "uploaded": "2026-11-26T02:26:44Z",
+   "version": "1.2.3"
   },
   "MJSNet-Setup-x64.exe": {
    "count": 1,
-   "id": 793586262,
-   "uploaded": "2026-11-25T23:40:43Z",
-   "version": "1.2.2"
+   "id": 794007735,
+   "uploaded": "2026-11-26T02:28:15Z",
+   "version": "1.2.3"
   },
   "MJSNet-linux-aarch64.tar.gz": {
    "count": 1,
-   "id": 793583131,
-   "uploaded": "2026-11-25T23:39:21Z",
-   "version": "1.2.2"
+   "id": 794004104,
+   "uploaded": "2026-11-26T02:26:59Z",
+   "version": "1.2.3"
   },
   "MJSNet-linux-x86_64.tar.gz": {
    "count": 1,
-   "id": 793585755,
-   "uploaded": "2026-11-25T23:40:31Z",
-   "version": "1.2.2"
+   "id": 794006999,
+   "uploaded": "2026-11-26T02:27:53Z",
+   "version": "1.2.3"
   },
   "MJSNet-macOS-arm64.dmg": {
-   "count": 2,
-   "id": 793579059,
-   "uploaded": "2026-11-25T23:37:49Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794000667,
+   "uploaded": "2026-11-26T02:25:20Z",
+   "version": "1.2.3"
   },
   "MJSNet-macOS-x86_64.dmg": {
    "count": 1,
-   "id": 793589190,
-   "uploaded": "2026-11-25T23:41:42Z",
-   "version": "1.2.2"
+   "id": 794010586,
+   "uploaded": "2026-11-26T02:29:22Z",
+   "version": "1.2.3"
   },
   "MJSNet-windows-arm64-portable.zip": {
    "count": 1,
-   "id": 793584370,
-   "uploaded": "2026-11-25T23:39:51Z",
-   "version": "1.2.2"
+   "id": 794003699,
+   "uploaded": "2026-11-26T02:26:45Z",
+   "version": "1.2.3"
   },
   "MJSNet-windows-x64-portable.zip": {
    "count": 1,
-   "id": 793586266,
-   "uploaded": "2026-11-25T23:40:46Z",
-   "version": "1.2.2"
+   "id": 794007732,
+   "uploaded": "2026-11-26T02:28:19Z",
+   "version": "1.2.3"
   },
   "OmniNet-Setup-arm64.exe": {
    "count": 1,
@@ -98,27 +98,27 @@
   },
   "mjsnet.el10.aarch64.rpm": {
    "count": 1,
-   "id": 793583130,
-   "uploaded": "2026-11-25T23:39:20Z",
-   "version": "1.2.2"
+   "id": 794004101,
+   "uploaded": "2026-11-26T02:26:57Z",
+   "version": "1.2.3"
   },
   "mjsnet.el10.x86_64.rpm": {
    "count": 1,
-   "id": 793585754,
-   "uploaded": "2026-11-25T23:40:28Z",
-   "version": "1.2.2"
+   "id": 794007000,
+   "uploaded": "2026-11-26T02:27:51Z",
+   "version": "1.2.3"
   },
   "mjsnet.ubuntu.amd64.deb": {
    "count": 1,
-   "id": 793583824,
-   "uploaded": "2026-11-25T23:39:37Z",
-   "version": "1.2.2"
+   "id": 794004226,
+   "uploaded": "2026-11-26T02:26:56Z",
+   "version": "1.2.3"
   },
   "mjsnet.ubuntu.arm64.deb": {
-   "count": 2,
-   "id": 793582211,
-   "uploaded": "2026-11-25T23:38:55Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794002593,
+   "uploaded": "2026-11-26T02:26:13Z",
+   "version": "1.2.3"
   },
   "omninet.el10.aarch64.rpm": {
    "count": 1,
@@ -145,52 +145,52 @@
    "version": "1.1.1"
   },
   "update-linux-aarch64-deb.json": {
-   "count": 0,
-   "id": 793994709,
-   "uploaded": "2026-11-26T02:23:10Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794002809,
+   "uploaded": "2026-11-26T02:26:16Z",
+   "version": "1.2.3"
   },
   "update-linux-aarch64.json": {
-   "count": 0,
-   "id": 793994707,
-   "uploaded": "2026-11-26T02:23:10Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794004552,
+   "uploaded": "2026-11-26T02:27:01Z",
+   "version": "1.2.3"
   },
   "update-linux-x86_64-deb.json": {
-   "count": 0,
-   "id": 793994713,
-   "uploaded": "2026-11-26T02:23:10Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794004461,
+   "uploaded": "2026-11-26T02:26:59Z",
+   "version": "1.2.3"
   },
   "update-linux-x86_64.json": {
-   "count": 0,
-   "id": 793994711,
-   "uploaded": "2026-11-26T02:23:10Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794007445,
+   "uploaded": "2026-11-26T02:27:55Z",
+   "version": "1.2.3"
   },
   "update-macos-arm64.json": {
-   "count": 0,
-   "id": 793994710,
-   "uploaded": "2026-11-26T02:23:10Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794000944,
+   "uploaded": "2026-11-26T02:25:23Z",
+   "version": "1.2.3"
   },
   "update-macos-x86_64.json": {
-   "count": 0,
-   "id": 793994768,
-   "uploaded": "2026-11-26T02:23:11Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794010782,
+   "uploaded": "2026-11-26T02:29:25Z",
+   "version": "1.2.3"
   },
   "update-windows-arm64.json": {
-   "count": 0,
-   "id": 793994773,
-   "uploaded": "2026-11-26T02:23:11Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794004015,
+   "uploaded": "2026-11-26T02:26:48Z",
+   "version": "1.2.3"
   },
   "update-windows-x64.json": {
-   "count": 0,
-   "id": 793994769,
-   "uploaded": "2026-11-26T02:23:11Z",
-   "version": "1.2.2"
+   "count": 1,
+   "id": 794008448,
+   "uploaded": "2026-11-26T02:28:22Z",
+   "version": "1.2.3"
   }
  },
  "history": [
@@ -216,40 +216,48 @@
   },
   {
    "date": "2026-11-26",
-   "downloads": 91,
-   "update_checks": 49
+   "downloads": 103,
+   "update_checks": 57
   }
  ],
  "retired": {
   "MJSNet-Setup-arm64.exe": {
-   "1.2.0": 3
+   "1.2.0": 3,
+   "1.2.2": 1
   },
   "MJSNet-Setup-x64.exe": {
    "1.2.0": 3,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "MJSNet-linux-aarch64.tar.gz": {
    "1.2.0": 3,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "MJSNet-linux-x86_64.tar.gz": {
    "1.2.0": 3,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "MJSNet-macOS-arm64.dmg": {
    "1.2.0": 4,
+   "1.2.2": 2,
    "unknown": 0
   },
   "MJSNet-macOS-x86_64.dmg": {
    "1.2.0": 3,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "MJSNet-windows-arm64-portable.zip": {
-   "1.2.0": 3
+   "1.2.0": 3,
+   "1.2.2": 1
   },
   "MJSNet-windows-x64-portable.zip": {
    "1.2.0": 3,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "OmniNet-Setup-arm64.exe": {
    "1.0.0": 1,
@@ -284,19 +292,23 @@
   },
   "mjsnet.el10.aarch64.rpm": {
    "1.2.0": 3,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "mjsnet.el10.x86_64.rpm": {
    "1.2.0": 3,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "mjsnet.ubuntu.amd64.deb": {
    "1.2.0": 2,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 1
   },
   "mjsnet.ubuntu.arm64.deb": {
    "1.2.0": 2,
-   "1.2.1": 0
+   "1.2.1": 0,
+   "1.2.2": 2
   },
   "omninet.el10.aarch64.rpm": {
    "1.0.0": 2,
@@ -355,7 +367,8 @@
   "update-windows-arm64.json": {
    "1.1.0": 2,
    "1.1.1": 1,
-   "1.2.0": 2
+   "1.2.0": 2,
+   "1.2.2": 0
   },
   "update-windows-x64.json": {
    "1.0.0": 1,
@@ -366,5 +379,5 @@
   }
  },
  "since": "2026-11-22",
- "updated": "2026-11-26T02:24:19+00:00"
+ "updated": "2026-11-26T12:54:05+00:00"
 }
