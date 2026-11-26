@@ -1,0 +1,7 @@
+[mjsnet]
+name=MJSNet
+baseurl=https://msanty573.github.io/MJSNet-Downloads/rpm/el10/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=https://msanty573.github.io/MJSNet-Downloads/RPM-GPG-KEY-mjsnet
+metadata_expire=6h

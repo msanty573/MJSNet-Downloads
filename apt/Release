@@ -1,0 +1,11 @@
+Origin: MJSNet
+Label: MJSNet
+Date: Thu, 26 Nov 2026 03:32:51 UTC
+Architectures: amd64 arm64
+Description: MJSNet apt repository
+MD5Sum:
+ a25bb7b2a28884019b3424398f3c20a2 1884 Packages
+ 42e1b33b38fdc740cef9aba1bcbf76bc 746 Packages.gz
+SHA256:
+ 1ea3e500e220a0bf89851a63662b6ab2da37646a0e0e5a014a64c70d361d67b9 1884 Packages
+ 559889bd96cf63a7e568df9fe228ea78b3deb1acadf433d43f1a796186378f32 746 Packages.gz

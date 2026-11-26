@@ -1,0 +1,4 @@
+Types: deb
+URIs: https://msanty573.github.io/MJSNet-Downloads/apt/
+Suites: ./
+Signed-By: /usr/share/keyrings/mjsnet-archive-keyring.gpg

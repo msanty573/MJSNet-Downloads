@@ -1,0 +1,22 @@
+<!doctype html>
+<meta charset="utf-8"><title>MJSNet repositories</title>
+<h1>MJSNet package repositories</h1>
+<h2>dnf (RHEL, AlmaLinux, Rocky, Fedora)</h2>
+<ul>
+<li>MJSNet 1.2.3 (el10, 64-bit ARM)</li>
+<li>MJSNet 1.2.3 (el10, 64-bit Intel/AMD)</li>
+</ul>
+<p>Add the repository once, then MJSNet updates with the rest of the system:</p>
+<pre>sudo rpm --import https://msanty573.github.io/MJSNet-Downloads/RPM-GPG-KEY-mjsnet
+sudo curl -o /etc/yum.repos.d/mjsnet.repo https://msanty573.github.io/MJSNet-Downloads/mjsnet.repo
+sudo dnf install mjsnet</pre>
+<h2>apt (Ubuntu 26.04 and newer)</h2>
+<ul>
+<li>MJSNet 1.2.3 (64-bit Intel/AMD)</li>
+<li>MJSNet 1.2.3 (64-bit ARM)</li>
+</ul>
+<p>Installing the package also adds this repository, so MJSNet then updates with
+the rest of the system:</p>
+<pre>wget https://github.com/msanty573/MJSNet-Downloads/releases/download/latest/mjsnet.ubuntu.$(dpkg --print-architecture).deb
+sudo apt install ./mjsnet.ubuntu.*.deb</pre>
+<p>More downloads: <a href="https://mjsapps.net/mjsnet/">mjsapps.net/mjsnet</a></p>
