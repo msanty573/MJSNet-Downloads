@@ -1,4 +1,4 @@
-# MJSNet downloads
+# Download MJSNet
 
 Installers for **MJSNet** by [MJS Applications](https://mjsapps.net) — see every device on
 your network, what it is, and what it exposes. This repository holds downloads only; the
@@ -39,8 +39,7 @@ first launch shows a warning:
   also Control-click MJSNet, choose **Open**, then **Open** again.)
 - **Windows:** if SmartScreen says "Windows protected your PC", click **More info →
   Run anyway**.
-- **Linux:** install the .deb (`sudo apt install ./mjsnet.ubuntu.*.deb`, which also sets
-  up updates through apt) or the RPM (`sudo dnf install ./mjsnet.el10.*.rpm`), or extract
+- **Linux:** install the .deb (`sudo apt install ./mjsnet.ubuntu.*.deb`) or the RPM (`sudo dnf install ./mjsnet.el10.*.rpm`), or extract
   the tar.gz and run `./install.sh`. To get RPM updates through dnf, add the repository once:
 
   ```
