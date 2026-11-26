@@ -1,13 +1,14 @@
 {
- "updated": "2026-11-25T23:37:57+00:00",
+ "updated": "2026-11-26T02:24:19+00:00",
  "since": "2026-11-22",
- "downloads": 77,
+ "downloads": 91,
  "by_platform": {
-  "Linux": 36,
-  "Windows": 24,
-  "macOS": 17
+  "Linux": 43,
+  "Windows": 28,
+  "macOS": 20
  },
  "by_version": {
+  "1.2.2": 14,
   "1.2.0": 35,
   "1.1.1": 12,
   "1.1.0": 3,
@@ -15,18 +16,18 @@
   "unknown": 5
  },
  "by_file": {
-  "MJSNet-linux-aarch64.tar.gz": 3,
-  "MJSNet-linux-x86_64.tar.gz": 3,
-  "MJSNet-macOS-arm64.dmg": 4,
-  "MJSNet-macOS-x86_64.dmg": 3,
-  "MJSNet-Setup-arm64.exe": 3,
-  "MJSNet-Setup-x64.exe": 3,
-  "MJSNet-windows-arm64-portable.zip": 3,
-  "MJSNet-windows-x64-portable.zip": 3,
-  "mjsnet.el10.aarch64.rpm": 3,
-  "mjsnet.el10.x86_64.rpm": 3,
-  "mjsnet.ubuntu.amd64.deb": 2,
-  "mjsnet.ubuntu.arm64.deb": 2,
+  "MJSNet-linux-aarch64.tar.gz": 4,
+  "MJSNet-linux-x86_64.tar.gz": 4,
+  "MJSNet-macOS-arm64.dmg": 6,
+  "MJSNet-macOS-x86_64.dmg": 4,
+  "MJSNet-Setup-arm64.exe": 4,
+  "MJSNet-Setup-x64.exe": 4,
+  "MJSNet-windows-arm64-portable.zip": 4,
+  "MJSNet-windows-x64-portable.zip": 4,
+  "mjsnet.el10.aarch64.rpm": 4,
+  "mjsnet.el10.x86_64.rpm": 4,
+  "mjsnet.ubuntu.amd64.deb": 3,
+  "mjsnet.ubuntu.arm64.deb": 4,
   "OmniNet-linux-aarch64.tar.gz": 3,
   "OmniNet-linux-x86_64.tar.gz": 3,
   "OmniNet-macOS-arm64.dmg": 6,
@@ -71,6 +72,11 @@
   {
    "date": "2026-11-25",
    "downloads": 77,
+   "update_checks": 49
+  },
+  {
+   "date": "2026-11-26",
+   "downloads": 91,
    "update_checks": 49
   }
  ]
